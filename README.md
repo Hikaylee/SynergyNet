@@ -1,6 +1,7 @@
 # SynergyNet_mindspore
 
 ***
+Implemented the simtrack model based on mindspore.
 
 The SynergyNet pipeline contains two stages. The first stage includes a preliminary 3DMM regression from images and a multi-attribute feature aggregation (MAFA) for landmark refinement. The second stage contains a landmark-to 3DMM regressor to reveal the embedded facial geometry in sparse landmarks.
 
@@ -52,3 +53,7 @@ of Top-1 and Top-5.
   Face orientation estimation:
   Mean MAE = 3.388 (in deg), [yaw,pitch,roll] = [3.566, 4.059, 2.539]
   ```
+  
+**Acknowledgement**
+
+The project is developed on [<a href="https://choyingw.github.io/works/SynergyNet">SynergyNet_torch</a>]. Thank them for their wonderful work. 
