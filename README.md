@@ -1,13 +1,15 @@
 # SynergyNet_mindspore
 
 ***
-Implemented the simtrack model based on mindspore.
+Implemented the SynergyNet model based on mindspore.
 
 The SynergyNet pipeline contains two stages. The first stage includes a preliminary 3DMM regression from images and a multi-attribute feature aggregation (MAFA) for landmark refinement. The second stage contains a landmark-to 3DMM regressor to reveal the embedded facial geometry in sparse landmarks.
 
 The architectural definition of each network refers to the following papers:
 
 [1] C. -Y. Wu, Q. Xu and U. Neumann, "Synergy between 3DMM and 3D Landmarks for Accurate 3D Facial Geometry," 2021 International Conference on 3D Vision (3DV), 2021, pp. 453-463, doi: 10.1109/3DV53792.2021.00055.
+
+[<a href="https://arxiv.org/abs/2110.09772">paper</a>]
 
 ## Pretrained models
 
